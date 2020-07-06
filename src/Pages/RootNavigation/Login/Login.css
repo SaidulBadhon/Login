@@ -1,0 +1,233 @@
+.Login {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Login .Container {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  width: 800px;
+  max-width: 100%;
+  min-height: 480px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+/* START OF LEFT SIDE */
+
+.Login .Container .LeftSide {
+  background: #fff;
+
+  transform: translateX(0);
+  transition: transform 0.6s ease-in-out;
+
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Login .Container .LeftSide .InputSection {
+  width: 85%;
+}
+
+.Login .Container .LeftSide .ForgotPassword {
+  text-align: right;
+  font-weight: 600;
+}
+
+.Login .Container .LeftSide .ForgotPassword span {
+  transition: all .2s ease-in-out;
+}
+.Login .Container .LeftSide .ForgotPassword span:hover {
+  color: #2441ff;
+  cursor: pointer;
+}
+
+.Login .Container .LeftSide .SubmitButton {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  overflow: hidden;
+}
+/* END OF LEFT SIDE */
+
+
+
+
+
+
+
+
+/* START OF RIGHT SIDE */
+
+
+/* .Login .Container .RightSide {
+  background: #582;
+  width: 50%;
+} */
+
+.Login .Container .RightSide {
+  background: #fff;
+
+  transform: translateX(0);
+  transition: transform 0.6s ease-in-out;
+
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Login .Container .RightSide .InputSection {
+  width: 85%;
+}
+
+.Login .Container .RightSide .SubmitButton {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.InputSection .FirstAndLastName {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.InputSection .FirstAndLastName .FirstName, .LastName{
+width: 47.5%;
+}
+
+
+
+/* END OF RIGHT SIDE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Login .Container .Slider {
+  position: absolute;
+  background: #2441ff;
+  right: 0;
+  transition: all .75s ease-in-out;
+  width: 50%;
+  height: 100%;
+}
+
+.Login .Container .SliderAnim {
+  position: absolute;
+  background: #2441ff;
+  right: 400px;
+  transition: all .75s ease-in-out;
+
+  width: 50%;
+  height: 100%;
+
+}
+
+.SliderContinar {
+/* background-color: rgba(0, 256, 0, 0.1); */
+height: 100%;
+
+}
+
+.SliderContinar .Greetings {
+  /* background-color: royalblue; */
+  height: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SliderContinar .Greetings h1{
+  margin:0px;
+  padding: 0px;
+
+  /* font-size: 40px;
+  font-weight: 600; */
+
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.SliderContinar .DontHaveAnAccountContinar {
+  /* background-color: saddlebrown; */
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  bottom: 0px;
+  width: 100%;
+  
+}
+
+.SliderContinar .DontHaveAnAccountContinar .DontHaveAnAccount{
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SliderContinar .DontHaveAnAccountContinar .DontHaveAnAccount h4 {
+padding:0px;
+margin: 0px;
+margin-bottom: 10px;
+   font-size: larger;
+   opacity: .95;
+  }
+
+.SliderContinar .DontHaveAnAccountContinar .DontHaveAnAccount h5 {
+  padding:0px;
+  margin: 0px;
+  margin-bottom: 20px;
+  opacity: .80;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: justify;
+  text-align: center;
+
+}
+
+.SliderContinar .DontHaveAnAccountContinar .DontHaveAnAccount .SubmitButton {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  overflow: hidden;
+}

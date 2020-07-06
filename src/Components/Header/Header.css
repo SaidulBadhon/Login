@@ -1,0 +1,55 @@
+.Header {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.Header h2 {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    left: 60px;
+}
+
+.Header .HeaderUserInfo {
+    position: absolute;
+
+    display: flex;
+    flex-direction: row;
+
+    right:  10px;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.Header .HeaderUserInfo .Logo{
+    margin-left: 10px;
+}
+
+
+.Header .HeaderUserInfo .Logo{
+    background-color: #2441ff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header .HeaderUserInfo .Logo h3 {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.Header .HeaderUserDitels h5, h6{
+  padding: 0px;
+  margin: 0px;
+}

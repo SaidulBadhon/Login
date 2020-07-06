@@ -1,0 +1,50 @@
+.Home {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.Home .DemoData {
+    width: 100%;
+    height: 100%;
+    
+    /* margin: 10px; */
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.Home .DemoData .Data1{
+    /* height: 250px */
+    margin: 10px;
+    border-radius: 10px;
+
+    grid-column-start: 1; 
+    grid-column-end: 3; 
+}
+
+.Home .DemoData .Data2{
+    margin: 0px 10px 10px 10px;
+
+    border-radius: 10px;
+}
+
+.Home .DemoData .Data3{
+    margin: 0px 10px 10px 0px;
+
+    border-radius: 10px;
+}
+
+.Home .DemoData .Data4{
+    margin: 0px 10px 10px 10px;
+
+    border-radius: 10px;
+}
+
+.Home .DemoData .Data5{
+    margin: 0px 10px 10px 0px;
+    border-radius: 10px;
+}
